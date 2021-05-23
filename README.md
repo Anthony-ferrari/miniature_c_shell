@@ -1,5 +1,5 @@
 # mini_c_shell
-Mini C Shell is a miniature version of a c shell that allows for multithreading on foreground and background processes created for command line arguments such as exit, cd, status by using exec functions. Also implements custom handlers for SIGINT and SIGTSTP. 
+Mini C Shell is a miniature version of a c shell that allows for on foreground and background processes created for command line arguments such as exit, cd, status. Uses exec functions for other command line arguments. Makes use of child process spawning to handle command line arguments.  Also implements custom handlers for SIGINT and SIGTSTP. 
 
 
 Flix is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
