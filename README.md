@@ -1,9 +1,6 @@
 # mini_c_shell
 Mini C Shell is a miniature version of a c shell that allows foreground and background processes to be created for command line arguments such as exit, cd, status. Uses exec functions for other command line arguments. Makes use of child process spawning to handle command line arguments.  Also implements custom handlers for SIGINT and SIGTSTP. 
 
-
-Flix is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
-
 #### Features 
 - [x] Allows foreground processes to run. The parent shell does not return command line access and control to user until child process terminates. 
 - [x] Allows for background processes to run with & character. THe parent shell does return command line access and control to user after forking off the child process. 
